@@ -1,1 +1,11 @@
-[build] publish = "public" command = "hugo --gc --minify" [context.production.environment] HUGO_VERSION = "0.74.3" HUGO_ENV = "production"
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+  
+[context.production.environment]
+  HUGO_VERSION = "0.74.3"
+  HUGO_ENV = "production"
+
+[[redirects]]
+  from = "/:page_e.php"
+  to = "/:page/"
