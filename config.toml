@@ -1,0 +1,4 @@
+baseURL = "https://www.playinginthedark.net/"
+languageCode = "en-us"
+title = "Playing In The Dark"
+theme = "playinginthedark"
