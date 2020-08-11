@@ -7,5 +7,29 @@
   HUGO_ENV = "production"
 
 [[redirects]]
-  from = "/:page_e.php"
-  to = "/:page/"
+  from = "/index_e.php"
+  to = "/"
+
+[[redirects]]
+  from = "/donate_e.php"
+  to = "/donate/"
+
+[[redirects]]
+  from = "/download_e.php"
+  to = "/download/"
+
+[[redirects]]
+  from = "/topspeed_e.php"
+  to = "/topspeed/"
+
+[[redirects]]
+  from = "/topspeed2_e.php"
+  to = "/topspeed2/"
+
+[[redirects]]
+  from = "/topspeed3_e.php"
+  to = "/topspeed3/"
+
+[[redirects]]
+  from = "/links_e.php"
+  to = "/links/"
